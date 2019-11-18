@@ -1,0 +1,11 @@
+{
+    "presets": ["@babel/preset-env", "@babel/preset-react"],
+    "plugins": [
+        ["./privy-babel-plugin", {"targetPath": "../server/src"}],
+        "@babel/plugin-transform-runtime",
+        "@babel/plugin-proposal-class-properties"
+    ],
+    "parserOpts": {
+        "allowImportExportEverywhere": true
+    }
+}

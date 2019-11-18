@@ -1,0 +1,26 @@
+{
+    "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "es6": true,
+        "node": true
+    },
+    "extends": ["react-app"],
+    "parserOptions": {
+        "ecmaVersion": 2017,
+        "allowImportExportEverywhere": true,
+        "sourceType": "module"
+    },
+    "rules": {
+        "indent": 0,
+        "no-console": 0,
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    }
+}
